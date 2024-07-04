@@ -1,0 +1,6 @@
+2024-07-03 07:24:04.686 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 23ms.
+2024-07-03 07:24:07.880 [info] Started local extension host with pid 2909.
+2024-07-03 07:24:13.931 [info] [perf] Render performance baseline is 51ms
+2024-07-03 07:24:49.215 [info] Started local extension host with pid 3112.
+2024-07-03 07:24:52.054 [info] [perf] Render performance baseline is 51ms
+2024-07-03 07:26:52.404 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

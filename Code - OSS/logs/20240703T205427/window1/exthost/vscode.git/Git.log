@@ -1,0 +1,25 @@
+2024-07-03 20:54:34.939 [info] Log level: Info
+2024-07-03 20:54:34.939 [info] Validating found git in: "git"
+2024-07-03 20:54:34.939 [info] Using git "2.45.2" from "git"
+2024-07-03 20:54:34.939 [info] > git rev-parse --show-toplevel [14ms]
+2024-07-03 20:54:34.939 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-03 20:54:34.939 [info] > git rev-parse --show-toplevel [17ms]
+2024-07-03 20:54:34.939 [info] fatal: detected dubious ownership in repository at '/data/Users/VetriVendhan/Downloads/Unity-Simple-Multiplayer-Game-master/Code to Logic/Fullstack Training/Cartrabbit/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory '/data/Users/VetriVendhan/Downloads/Unity-Simple-Multiplayer-Game-master/Code to Logic/Fullstack Training/Cartrabbit/frontend'
+2024-07-03 20:54:34.939 [info] > git rev-parse --show-toplevel [15ms]
+2024-07-03 20:54:34.939 [info] fatal: detected dubious ownership in repository at '/data/Users/VetriVendhan/Downloads/Unity-Simple-Multiplayer-Game-master/Code to Logic/Fullstack Training/Cartrabbit/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory '/data/Users/VetriVendhan/Downloads/Unity-Simple-Multiplayer-Game-master/Code to Logic/Fullstack Training/Cartrabbit/frontend'
+2024-07-03 20:54:36.279 [info] > git rev-parse --show-toplevel [10ms]
+2024-07-03 20:54:36.279 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-03 20:54:36.530 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-03 20:54:36.530 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-03 20:54:38.276 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-03 20:54:38.276 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

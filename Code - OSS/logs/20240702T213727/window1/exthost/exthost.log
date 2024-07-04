@@ -1,0 +1,27 @@
+2024-07-02 21:37:30.043 [info] Extension host with pid 10185 started
+2024-07-02 21:37:30.178 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-02 21:37:30.418 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-07-02 21:37:30.477 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-02 21:37:30.530 [info] Eager extensions activated
+2024-07-02 21:37:30.540 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-02 21:37:30.551 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-02 21:37:57.379 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-02 21:37:57.384 [info] Extension host with pid 10185 exiting with code 0
+2024-07-02 21:37:59.443 [info] Extension host with pid 10250 started
+2024-07-02 21:37:59.443 [info] Skipping acquiring lock for /home/vetri/.config/Code - OSS/User/workspaceStorage/82013d00ee71429ca9e3014c2d717776.
+2024-07-02 21:37:59.741 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-02 21:37:59.762 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-02 21:38:01.003 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-02 21:38:01.023 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2024-07-02 21:38:01.160 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-07-02 21:38:01.548 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-02 21:38:01.636 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-02 21:38:01.944 [info] Eager extensions activated
+2024-07-02 21:38:02.227 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-02 21:38:02.256 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-02 21:38:03.514 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-02 21:38:55.053 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-07-02 21:50:04.473 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-07-02 22:00:01.945 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-07-02 22:01:50.900 [info] Extension host terminating: renderer closed the MessagePort
+2024-07-02 22:01:50.957 [info] Extension host with pid 10250 exiting with code 0

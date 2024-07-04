@@ -1,0 +1,12 @@
+2024/07/04-05:55:40.198 846 Reusing MANIFEST /home/vetri/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/04-05:55:40.199 846 Recovering log #35
+2024/07/04-05:55:40.225 846 Reusing old log /home/vetri/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000035.log 
+2024/07/04-05:55:47.824 83b Level-0 table #40: started
+2024/07/04-05:55:47.893 83b Level-0 table #40: 2909954 bytes OK
+2024/07/04-05:55:47.900 83b Delete type=0 #35
+2024/07/04-05:55:57.804 83b Compacting 1@1 + 1@2 files
+2024/07/04-05:55:58.005 83b Generated table #41@1: 207 keys, 669051 bytes
+2024/07/04-05:55:58.006 83b Compacted 1@1 + 1@2 files => 669051 bytes
+2024/07/04-05:55:58.015 83b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/07/04-05:55:58.015 83b Delete type=2 #37
+2024/07/04-05:55:58.016 83b Delete type=2 #40

@@ -1,0 +1,6 @@
+2024/06/29-08:47:26.574 1c66 Creating DB /home/vetri/.config/chromium/Default/WebStorage/5/IndexedDB/indexeddb.leveldb since it was missing.
+2024/06/29-08:47:26.588 1c66 Reusing MANIFEST /home/vetri/.config/chromium/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/06/29-08:47:44.570 1c67 Level-0 table #5: started
+2024/06/29-08:47:44.573 1c67 Level-0 table #5: 385 bytes OK
+2024/06/29-08:47:44.578 1c67 Delete type=0 #3
+2024/06/29-08:47:44.578 1c67 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

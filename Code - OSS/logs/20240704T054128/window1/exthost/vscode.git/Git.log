@@ -1,0 +1,64 @@
+2024-07-04 05:41:35.353 [info] Log level: Info
+2024-07-04 05:41:35.353 [info] Validating found git in: "git"
+2024-07-04 05:41:35.353 [info] Using git "2.45.2" from "git"
+2024-07-04 05:41:35.353 [info] > git rev-parse --show-toplevel [44ms]
+2024-07-04 05:41:35.353 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 05:41:35.353 [info] > git rev-parse --show-toplevel [19ms]
+2024-07-04 05:41:35.353 [info] fatal: detected dubious ownership in repository at '/data/Users/VetriVendhan/Downloads/Unity-Simple-Multiplayer-Game-master/Code to Logic/Fullstack Training/Cartrabbit/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory '/data/Users/VetriVendhan/Downloads/Unity-Simple-Multiplayer-Game-master/Code to Logic/Fullstack Training/Cartrabbit/frontend'
+2024-07-04 05:41:35.353 [info] > git rev-parse --show-toplevel [25ms]
+2024-07-04 05:41:35.353 [info] fatal: detected dubious ownership in repository at '/data/Users/VetriVendhan/Downloads/Unity-Simple-Multiplayer-Game-master/Code to Logic/Fullstack Training/Cartrabbit/frontend'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory '/data/Users/VetriVendhan/Downloads/Unity-Simple-Multiplayer-Game-master/Code to Logic/Fullstack Training/Cartrabbit/frontend'
+2024-07-04 05:41:38.769 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-04 05:41:38.769 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 05:41:39.394 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 05:41:39.394 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 05:41:41.902 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-04 05:41:41.902 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 06:00:49.720 [info] Log level: Info
+2024-07-04 06:00:49.720 [info] Validating found git in: "git"
+2024-07-04 06:00:49.720 [info] Using git "2.45.2" from "git"
+2024-07-04 06:00:49.720 [info] > git rev-parse --show-toplevel [13ms]
+2024-07-04 06:00:49.720 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:00:49.720 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 06:00:49.720 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:00:49.720 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-04 06:00:49.720 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:00:51.288 [info] > git rev-parse --show-toplevel [14ms]
+2024-07-04 06:00:51.288 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:00:51.385 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-04 06:00:51.385 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:00:52.850 [info] > git rev-parse --show-toplevel [14ms]
+2024-07-04 06:00:52.850 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:01:08.966 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-04 06:01:08.966 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:03:26.145 [info] > git rev-parse --show-toplevel [10ms]
+2024-07-04 06:03:26.145 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:03:32.247 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-04 06:03:32.247 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:05:48.683 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-04 06:05:48.683 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:06:14.536 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 06:06:14.536 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:06:39.592 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-04 06:06:39.592 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:07:19.288 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-04 06:07:19.288 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:07:35.086 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-04 06:07:35.086 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:11:04.198 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 06:11:04.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:11:08.796 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-04 06:11:08.796 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:17:30.224 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-04 06:17:30.224 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-04 06:17:30.869 [info] > git rev-parse --show-toplevel [18ms]
+2024-07-04 06:17:30.869 [info] fatal: not a git repository (or any of the parent directories): .git

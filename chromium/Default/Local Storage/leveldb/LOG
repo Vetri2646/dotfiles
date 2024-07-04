@@ -1,0 +1,23 @@
+2024/07/04-05:40:57.500 4 Reusing MANIFEST /home/vetri/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/07/04-05:40:57.512 4 Recovering log #32
+2024/07/04-05:40:57.514 4 Level-0 table #35: started
+2024/07/04-05:40:57.523 4 Level-0 table #35: 39586 bytes OK
+2024/07/04-05:40:57.530 4 Delete type=0 #32
+2024/07/04-05:55:45.669 4 Level-0 table #38: started
+2024/07/04-05:55:45.680 4 Level-0 table #38: 22436 bytes OK
+2024/07/04-05:55:45.687 4 Delete type=0 #36
+2024/07/04-06:17:03.178 6 Level-0 table #40: started
+2024/07/04-06:17:03.187 6 Level-0 table #40: 190506 bytes OK
+2024/07/04-06:17:03.190 6 Delete type=0 #37
+2024/07/04-06:17:03.191 6 Compacting 4@0 + 1@1 files
+2024/07/04-06:17:03.206 6 Generated table #41@0: 422 keys, 296494 bytes
+2024/07/04-06:17:03.206 6 Compacted 4@0 + 1@1 files => 296494 bytes
+2024/07/04-06:17:03.211 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/07/04-06:17:03.215 6 Delete type=2 #35
+2024/07/04-06:17:03.215 6 Delete type=2 #33
+2024/07/04-06:17:03.215 6 Delete type=2 #38
+2024/07/04-06:17:03.215 6 Delete type=2 #30
+2024/07/04-06:17:03.216 6 Delete type=2 #40
+2024/07/04-06:26:02.853 6 Level-0 table #43: started
+2024/07/04-06:26:02.863 6 Level-0 table #43: 26800 bytes OK
+2024/07/04-06:26:02.872 6 Delete type=0 #39

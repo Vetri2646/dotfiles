@@ -1,0 +1,14 @@
+2024-07-03 20:54:30.986 [info] Extension host with pid 5432 started
+2024-07-03 20:54:30.986 [info] Skipping acquiring lock for /home/vetri/.config/Code - OSS/User/workspaceStorage/223cfe2e57c0f9000fbf772e89c0cb1c.
+2024-07-03 20:54:31.524 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-07-03 20:54:31.539 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-03 20:54:31.560 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-03 20:54:32.957 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-03 20:54:32.969 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2024-07-03 20:54:33.846 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-03 20:54:34.046 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-03 20:54:34.627 [info] Eager extensions activated
+2024-07-03 20:54:35.356 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-03 20:54:35.363 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-03 20:54:35.397 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2024-07-03 20:54:35.950 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

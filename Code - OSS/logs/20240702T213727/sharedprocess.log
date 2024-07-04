@@ -1,0 +1,34 @@
+2024-07-02 21:38:43.034 [info] Getting Manifest... yandeu.five-server
+2024-07-02 21:38:43.324 [info] Installing extension: yandeu.five-server vscode-userdata:/home/vetri/.vscode-oss/extensions/extensions.json
+2024-07-02 21:38:54.309 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-07-02 21:38:54.309 [info] Extension signature verification is not done: yandeu.five-server
+2024-07-02 21:38:54.659 [info] Extracted extension to file:///home/vetri/.vscode-oss/extensions/yandeu.five-server-0.3.1-universal: yandeu.five-server
+2024-07-02 21:38:54.674 [info] Renamed to /home/vetri/.vscode-oss/extensions/yandeu.five-server-0.3.1-universal
+2024-07-02 21:38:54.796 [info] Extension installed successfully: yandeu.five-server vscode-userdata:/home/vetri/.vscode-oss/extensions/extensions.json
+2024-07-02 21:38:54.805 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vetri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vetri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-07-02 21:49:25.942 [info] Getting Manifest... mechatroner.rainbow-csv
+2024-07-02 21:49:27.379 [info] Installing extension: mechatroner.rainbow-csv vscode-userdata:/home/vetri/.vscode-oss/extensions/extensions.json
+2024-07-02 21:50:03.858 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-07-02 21:50:03.858 [info] Extension signature verification is not done: mechatroner.rainbow-csv
+2024-07-02 21:50:03.968 [info] Extracted extension to file:///home/vetri/.vscode-oss/extensions/mechatroner.rainbow-csv-3.3.0-universal: mechatroner.rainbow-csv
+2024-07-02 21:50:03.975 [info] Renamed to /home/vetri/.vscode-oss/extensions/mechatroner.rainbow-csv-3.3.0-universal
+2024-07-02 21:50:04.075 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/vetri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/vetri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-07-02 21:50:04.128 [info] Extension installed successfully: mechatroner.rainbow-csv vscode-userdata:/home/vetri/.vscode-oss/extensions/extensions.json

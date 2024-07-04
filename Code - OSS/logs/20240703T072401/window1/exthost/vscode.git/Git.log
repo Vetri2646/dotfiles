@@ -1,0 +1,76 @@
+2024-07-03 07:24:10.767 [info] Log level: Info
+2024-07-03 07:24:10.767 [info] Validating found git in: "git"
+2024-07-03 07:24:10.767 [info] Using git "2.45.2" from "git"
+2024-07-03 07:24:10.767 [info] > git rev-parse --show-toplevel [28ms]
+2024-07-03 07:24:10.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:10.767 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-03 07:24:10.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:10.767 [info] > git rev-parse --show-toplevel [10ms]
+2024-07-03 07:24:10.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:10.769 [info] > git rev-parse --show-toplevel [6ms]
+2024-07-03 07:24:10.769 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:11.232 [info] > git rev-parse --show-toplevel [6ms]
+2024-07-03 07:24:11.232 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:11.698 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-03 07:24:11.698 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:12.752 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-03 07:24:12.752 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:25.898 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-03 07:24:25.898 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:51.472 [info] Log level: Info
+2024-07-03 07:24:51.472 [info] Validating found git in: "git"
+2024-07-03 07:24:51.472 [info] Using git "2.45.2" from "git"
+2024-07-03 07:24:51.472 [info] > git rev-parse --show-toplevel [99ms]
+2024-07-03 07:24:51.472 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:51.488 [info] > git rev-parse --show-toplevel [10ms]
+2024-07-03 07:24:51.489 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:51.639 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-03 07:24:51.639 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:54.059 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-03 07:24:54.059 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:24:59.408 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-03 07:24:59.408 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:26:37.576 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-03 07:26:37.585 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-03 07:26:37.609 [info] Open repository: /home/vetri/Projects/CartRabbit/fullstack
+2024-07-03 07:26:37.628 [info] > git config --get commit.template [6ms]
+2024-07-03 07:26:37.639 [info] No remotes found in the git config file.
+2024-07-03 07:26:37.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-07-03 07:26:37.641 [warning] No such branch: master.
+2024-07-03 07:26:37.672 [info] > git status -z -uall [19ms]
+2024-07-03 07:26:37.797 [info] > git config --get commit.template [7ms]
+2024-07-03 07:26:37.799 [info] No remotes found in the git config file.
+2024-07-03 07:26:37.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-07-03 07:26:37.808 [warning] No such branch: master.
+2024-07-03 07:26:37.817 [info] > git status -z -uall [3ms]
+2024-07-03 07:26:38.136 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-03 07:26:43.342 [info] > git config --get commit.template [11ms]
+2024-07-03 07:26:43.366 [info] No remotes found in the git config file.
+2024-07-03 07:26:43.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-07-03 07:26:43.373 [warning] No such branch: master.
+2024-07-03 07:26:43.400 [info] > git status -z -uall [10ms]
+2024-07-03 07:26:48.446 [info] No remotes found in the git config file.
+2024-07-03 07:26:48.447 [info] > git config --get commit.template [8ms]
+2024-07-03 07:26:48.448 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-03 07:26:48.448 [warning] No such branch: master.
+2024-07-03 07:26:48.456 [info] > git status -z -uall [2ms]
+2024-07-03 07:26:53.468 [warning] ENOENT: no such file or directory, open '/home/vetri/Projects/CartRabbit/fullstack/.git/HEAD'
+2024-07-03 07:26:53.472 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/vetri/Projects/CartRabbit/fullstack/.git/config'
+2024-07-03 07:26:53.478 [info] > git remote --verbose [6ms]
+2024-07-03 07:26:53.478 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:26:53.483 [info] > git symbolic-ref --short HEAD [15ms]
+2024-07-03 07:26:53.483 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:26:53.495 [warning] ENOENT: no such file or directory, open '/home/vetri/Projects/CartRabbit/fullstack/.git/HEAD'
+2024-07-03 07:26:53.501 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/vetri/Projects/CartRabbit/fullstack/.git/config'
+2024-07-03 07:26:53.507 [info] > git config --get commit.template [30ms]
+2024-07-03 07:26:53.508 [info] > git config --get commit.template [2ms]
+2024-07-03 07:26:53.509 [info] > git remote --verbose [9ms]
+2024-07-03 07:26:53.509 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:26:53.509 [info] > git symbolic-ref --short HEAD [14ms]
+2024-07-03 07:26:53.509 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:26:53.514 [info] > git rev-parse HEAD [25ms]
+2024-07-03 07:26:53.514 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:26:53.516 [info] > git rev-parse HEAD [2ms]
+2024-07-03 07:26:53.516 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-03 07:33:10.239 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-03 07:33:10.239 [info] fatal: not a git repository (or any of the parent directories): .git

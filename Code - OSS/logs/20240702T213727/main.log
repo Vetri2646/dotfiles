@@ -1,0 +1,5 @@
+2024-07-02 21:37:27.367 [info] update#setState disabled
+2024-07-02 21:37:27.369 [info] update#ctor - updates are disabled as there is no update URL
+2024-07-02 21:37:57.387 [info] Extension host with pid 10185 exited with code: 0, signal: unknown.
+2024-07-02 22:01:10.406 [info] Extension host with pid 13422 exited with code: 0, signal: unknown.
+2024-07-02 22:01:50.986 [info] Extension host with pid 10250 exited with code: 0, signal: unknown.

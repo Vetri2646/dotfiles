@@ -1,0 +1,6 @@
+2024/07/02-09:55:52.798 1737 Creating DB /home/vetri/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
+2024/07/02-09:55:52.823 1737 Reusing MANIFEST /home/vetri/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/02-09:56:24.803 172d Level-0 table #5: started
+2024/07/02-09:56:24.805 172d Level-0 table #5: 1429 bytes OK
+2024/07/02-09:56:24.807 172d Delete type=0 #3
+2024/07/02-09:56:24.808 172d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
