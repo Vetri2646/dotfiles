@@ -1,342 +1,170 @@
-Movin to ~~fedora 40~~ nope arch it [is](is)
+# Arch BSPWM Dotfiles
 
-# SCREENSHOT 🖼️
-
-![Alt text](/ss/p1.png?raw=true "Optional Title")
-![Alt text](/ss/lock.png?raw=true "Optional Title")
-![Alt text](/ss/p2.png?raw=true "Optional Title")
-![Alt text](/ss/p3.png?raw=true "Optional Title")
-![Alt text](/ss/p4.png?raw=true "Optional Title")
+My personal Arch Linux setup using **BSPWM**, **SXHKD**, dynamic Pywal16 colors, Polybar, and Rofi.
 
 
-### Old Polybar
+## Screenshots 🖼️
 
-![Alt text](/ss/oldpoly1.png?raw=true "Optional Title")
+![Desktop](screenshots/desktop.png)
 
-![Alt text](/ss/oldpoly2.png?raw=true "Optional Title")
+![Cava](screenshots/cava.png)
 
+![Cava and Pipes](screenshots/cava_and_pipes.png)
 
+![Ranger](screenshots/ranger.png)
 
-----------------Software used----------------
+![Screenshot 1](screenshots/2024-10-08_11-27.png)
 
-**WM** = BSPWM
+![Screenshot 2](screenshots/2024-10-08_15-24.png)
 
-**terminal** = Alacritty 
+![Screenshot 3](screenshots/2024-10-08_15-35.png)
 
-**Bar** = Polybar (_needs playerctl, video grp and pacman-contrib_)
+![Screenshot 4](screenshots/2024-10-08_15-47.png)
 
-**file** = nemo and kitty + yazi
+![Screenshot 5](screenshots/2024-10-08_15-48.png)
 
-**music** = spotify and amberol
+![Screenshot 6](screenshots/2024-10-08_15-49.png)
 
-**cli tool** = pipe.sh , cava ,fastfetch ,htop ,anipy-cli, pfetch-rc, tty-clock, asciiquarium, nitch, cmatrix, cbonsai, asciiquarium 
+## Software
 
-**text** = xed nano
+| Component | Software |
+|---|---|
+| Window manager | BSPWM |
+| Keybindings | SXHKD |
+| Terminal | Alacritty, Kitty |
+| Bar | Polybar |
+| Launcher | Rofi |
+| File manager | Nemo, Yazi |
+| Shell | Zsh |
+| Browser | Brave, Firefox, Chromium |
+| Music | Spotify, Amberol |
+| Notifications | Dunst |
+| Compositor | Picom |
+| Lock screen | Betterlockscreen |
+| Screenshots | Scrot, Flameshot |
+| Text editors | Xed, Nano, Sublime Text |
+| Colors | Pywal16 |
+| Fonts | JetBrainsMono Nerd Font, Noto fonts |
+| Display manager | SDDM with Sugar Candy |
+| Other tools | Cava, Fastfetch, FZF, Zoxide, Greenclip |
 
-**spotify** = spicify 
+## Keyboard shortcuts
 
-**app launcher** = rofi, greenclip, rofi-emoji
+These shortcuts are defined in `bspwm/sxhkdrc`.
 
-**browser** = brave , firefox , chromium (gbf) 
+### Window management
 
-**shell** = zsh, lsd, fzf, zinit , zoxide
+| Shortcut | Action |
+|---|---|
+| `Super + T` | Tiled mode |
+| `Super + Shift + T` | Pseudo-tiled mode |
+| `Super + S` | Floating mode |
+| `Super + F` | Fullscreen |
+| `Super + M` | Toggle layout |
+| `Super + Q` | Close window |
+| `Super + Shift + Q` | Open power menu |
+| `Super + Alt + Q` | Quit BSPWM |
+| `Super + Alt + R` | Restart BSPWM |
+| `Super + Ctrl + M/X/Y/Z` | Mark, lock, sticky, or private node |
 
-**notif** = dunst 
+### Focus and desktops
 
-**Font** = JetBraonsMono Nerd , noto bangla, cjk for jp,kr,c
+| Shortcut | Action |
+|---|---|
+| `Super + J/K/I/L` | Focus south, north, west/east according to SXHKD mapping |
+| `Super + Shift + J/K/I/L` | Swap window in the selected direction |
+| `Super + 1–9` | Switch desktop |
+| `Super + 0` | Switch to desktop 10 |
+| `Super + Shift + 1–9/0` | Send window to desktop |
+| `Super + Bracket Left/Right` | Previous/next desktop |
+| `Super + Grave` | Focus last window |
+| `Super + Tab` | Focus last desktop |
+| `Super + U` | Focus next window |
+| `Super + Shift + U` | Focus previous window |
+| `Super + O/I` | Focus older/newer window in history |
 
-**image** = gthumb
+### Resize and move windows
 
-**colors** = Pywal16
+| Shortcut | Action |
+|---|---|
+| `Super + Alt + J/K/I/L` | Expand a window |
+| `Super + Alt + Shift + J/K/I/L` | Contract a window |
+| `Shift + Arrow Keys` | Move a floating window |
 
-**sddm theme** = suger-candy
+### Applications
 
-# Commands 💻
+| Shortcut | Application/action |
+|---|---|
+| `Super + Enter` | Alacritty |
+| `Super + Shift + Enter` | Kitty |
+| `Super + Space` | Rofi application launcher |
+| `Super + Alt + A` | Rofi file browser |
+| `Alt + Tab` | Rofi window switcher |
+| `Super + Ctrl + V` | Clipboard manager |
+| `Super + Period` | Emoji picker |
+| `Super + Shift + X` | Lock screen |
+| `Super + B` | Brave |
+| `Super + Shift + B` | Chromium |
+| `Super + Z` | Spotify |
+| `Super + V` | Kitty running Yazi |
+| `Super + Shift + V` | Nemo |
+| `Super + R` | Xed |
+| `Super + Shift + R` | Sublime Text |
+| `Super + E` | JDownloader |
+| `Super + D` | Discord |
+| `Super + A` | Anime CLI |
+| `Super + Shift + A` | Anime CLI search mode |
 
-install arch or archinstall whatever pipewire audio don`t forgor to reflector cuz the automatic one is shit
+### Screenshots
 
-## Important depends if no pywal then bspwm won`t open ####
+| Shortcut | Action |
+|---|---|
+| `Print` | Capture screenshot |
+| `Shift + Print` | Select an area |
+| `Alt + Print` | Capture active window |
+| `Super + Shift + S` | Open Flameshot |
 
-connect wifi
+### Preselection
 
+| Shortcut | Action |
+|---|---|
+| `Super + Ctrl + J/K/I/L` | Preselect a split direction |
+| `Super + Ctrl + 1–9` | Set split ratio |
+| `Super + Ctrl + Space` | Cancel node preselection |
+| `Super + Ctrl + Shift + Space` | Cancel desktop preselection |
+| `Super + Y` | Move newest marked node to the newest preselected node |
+| `Super + G` | Swap with the biggest window |
+
+## Configuration
+
+- BSPWM settings: `bspwm/bspwmrc`
+- Keyboard shortcuts: `bspwm/sxhkdrc`
+- Rofi configuration: `~/.config/rofi/`
+- Pywal colors: `~/.cache/wal/`
+- Polybar configuration: `~/.config/polybar/`
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Vetri2646/dotfiles.git
+cd dotfiles
 ```
-nmcli device wifi connect !name! password !psswd!
-```
-mirror fix
 
-```
-sudo reflector --country 'Bangladesh' --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
-```
-update
+Review the configuration and run the linking script:
 
-```
-sudo pacman -Syu
-```
-base installs
-
-```
-sudo paman -S xorg xorg-xsetroot bspwm sxhkd alacritty neno firefox rofi scrot xclip polybar vulkan-intel dunst fastfetch git sddm picom 
-```
-
-_(if hardware allows then fork of picom)_
-
-
-set login maneger
-
-```
-sudo systemctl enable sddm
-```
-clone dots
-
-```
-git clone https://github.com/k0lp0na/ArchBspwm.git
-```
-
-
-```
-mv ArchBspwm dots
-```
-
-
-```
-cd dots 
+```bash
 ./link.sh
 ```
 
-**get JetbrainMono Nerd**
+Install the required applications and dependencies for your system before starting BSPWM. Review the scripts before executing them.
 
-```
-sudo pacman -S ttf-jetbrains-mono-nerd
-```
+## Notes
 
-**pywal 🎨**
+- Pywal16 is used for dynamic colors.
+- Some keybindings depend on applications such as Rofi, Greenclip, Yazi, and Betterlockscreen.
+- Application paths and dependencies may need adjustment for a fresh installation.
 
-```
-pacmn -S python-pip imagemagick nitrogen 
+That's it. Enjoy the setup — and maybe get some work done instead of configuring dotfiles.
 
-python -m venv myenv #(must be named myenv)
-source myenv/bin/activate
-
-pip pywal16 #[probly nedd vir env]
-```
-
-
-git clone wallpaper
-
-set wall
-
-
-```
-wal --cols16 -i ~/wall/....
-```
-
-_now reboot_
-
-_**login hopefully it worked**_
-
-### Zsh 
-
-setup zsh
-
-```
-sudo pacman -S zsh zoxide lsd fzf 
-
-chsh -s ${which zsh}
-```
-
-add flatpaks pobly will use it in future
-
-
-reboot
-
-
-### pacman ###
-
-IloveCandy and Color in /etc/pacman.conf [i think might be wrong]
-
-
-
-### Fix toucepad 
-
-```
-sudo nano /etc/X11/xorg.conf.d/40-libinput.conf
-```
-
-add
-
-```
-Section "InputClass"
-    Identifier "libinput touchpad"
-    Driver "libinput"
-    MatchIsTouchpad "on"
-    Option "Tapping" "on"
-    Option "NaturalScrolling" "on"
-EndSection
-```
-
-### Fix polybar Brightness
-
-```
-sudo nano /etc/udev/rules.d/90-backlight.rules
-```
-Add
-
-```
-SUBSYSTEM=="backlight", RUN+="/usr/bin/chgrp video /sys/class/backlight/intel_backlight/brightness"
-SUBSYSTEM=="backlight", RUN+="/usr/bin/chmod g+w /sys/class/backlight/intel_backlight/brightness"
-```
-
-```
-sudo udevadm control --reload-rules
-sudo udevadm trigger
-```
-
-```
-sudo usermod -aG video $USER
-```
-
-```
-groups your-username
-```
-
-reboot
-
-# post things
-
-multilib 
-
-install yay #cuz paru doesnt want to play with me why wont she play with me
-
-```
-in lxappearance qt5ct qt6ct mpv kitty yazi xed qbittorrent playerctl pacman-contrib chromium discord xfce4-power-manager noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra rofi-emoji xdotool asciiquarium cmatrix
-```
-
-**get  whitsur dark theme**
-
-**get icon beautyline**
-
-**get cursor breeze light or Phinger cursor**
-
-
-###  codexs
-
-idk everything  just works
-
-```
-in vlc
-
-out vlc
-```
-
-thats it sooo simple why cant fedora be like this and just play nice
-
-
-yay spotify greenclip brave jdownloader cava pipe.sh cbonsai tty-clock
-
-# other 
-
-
-### anime
-
-```
-re && pip install anipycli
-```
-
-### if jdownloader goes blank white 
-
-```
-sudo nano /etc/profile
-```
-
-Add
-
-```
-export _JAVA_AWT_WM_NONREPARENTING=1
-```
-
-### if amberol stay light theme
-
-```
-in xdg-desktop-portal-gtk
-
-gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-```
-
-### if qt5ct doesnt work
-
-```
-sudo nano /etc/environment 
-```
-
-add
-```
- QT_QPA_PLATFORMTHEME=qt5ct
-```
-reboot
-
-### bangla text issue
-
-**change browser font to a bangla one**
-
-**discord issue idk how to fix**
-
-**same for polybar**
-
-
-## sddm theme 
-
-```
-chsddm 
-```
-
-change theme to theme 
-
-move picture to theme older usually at /usr/share/sddm/themes/Sugar-Candy/
-
-```
-chsugar
-```
-
-now type image dir must be on same folder as theme being in ~ doesn`t seem to work
-
-ya good
-
-check by
-
-```
-sddm-greeter --test-mode --theme /usr/share/sddm/themes/Sugar-Candy 
-```
-
-### lock screen 
-
-go build betterlockscreen from srouce
-
-
-# clr and update
-```
-opr
-```
-
-
-```
-clr
-```
-
-
-```
-updt
-```
------------------------------------------------------------------
-
-Now hopefully I have a complete setup for my day to day use i wanted someething dynamic color its my first rice and man pywal is awsome everything followa it but
-i have to 
-
-chrofi and change color from color.json from ~/.cache/wal/color.json
-
-and change sddm thing by cping png into it and chsugar
-
-I dont know how to automate it if you know them feel free to let me know
-
-_**NOW! enjoy the setup and maybe actually do some work instead of configing .dotfiles**_
-
- 
