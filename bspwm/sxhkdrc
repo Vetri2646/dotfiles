@@ -1,4 +1,4 @@
-###### Window Manegment ########
+
 
 # set the window state
 super + {t,shift + t,s,f}
@@ -129,6 +129,10 @@ shift + Print
 
 alt + Print
     scrot -u -e 'xclip -selection clipboard -t image/png < $f' ~/Pictures/ss/screenshot_%Y-%m-%d_%H-%M-%S.png && notify-send ss -t 1000 
+
+# Screenshot GUI - Flameshot
+super + shift + s
+    flameshot gui
 
 ########################################### App Binds #################################################
 

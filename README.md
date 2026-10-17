@@ -1,4 +1,4 @@
-Movin to ~~fedora 40~~ nope arch it is
+Movin to ~~fedora 40~~ nope arch it [is](is)
 
 # SCREENSHOT 🖼️
 
